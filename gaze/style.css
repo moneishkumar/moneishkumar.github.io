@@ -1,0 +1,139 @@
+* { margin:0;padding:0}
+
+body {
+	font-family: verdana, geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+color: #222;
+margin: 20px auto;
+width: 100%;
+       line-height: 1.8em;
+}
+h1, h2, h3 { 
+color:#111;
+      font-family: 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+      font-weight:normal
+}
+h1 {font-size: 2.5em; line-height: 1.0em;}
+h2 {
+	font-size: 1.7em; 
+	margin-top: 20px;
+	text-transform: uppercase;
+	letter-spacing:.1em;
+	border-top: 1px dashed #e6e6e6;
+	padding-top: 5px;
+}
+h3 { 
+	font-size: 1.5em;
+	font-style: italic;
+	padding-top: 10px;
+}
+a {
+	text-decoration:none;color:#0021a5;
+padding: 10px 40px;
+	 font-family: georgia;
+}
+a:hover {text-decoration: underline;}
+p { margin: 10px 0 }
+ul {margin: 5px 0 0 10px;}
+li, p {font-size: 1.1em;}
+li {
+	list-style:none;
+background: url(images/bullet.gif) 2px 5px no-repeat;
+padding: 2px 0 2px 17px;
+}
+
+table {
+padding: 1px; 	
+width: 100%;
+       border-spacing: 1px;
+}
+
+td.list{
+background: url(images/bullet.gif) 5px 5px no-repeat;
+width: 20%;
+padding: 0px 0px 0px 20px;
+	 vertical-align: top;
+}	
+
+img {
+padding: 3px;
+border: 1px solid #333;
+}
+
+.pdf {
+background: url(./images/pdf.jpg) left center no-repeat;
+	    background-size: 32px auto;
+padding: 10px 40px;
+	 font-family: georgia;
+}
+
+.zip {
+background: url(images/zip.gif) left center no-repeat;
+	    background-size: 32px auto;
+padding: 10px 40px;
+	 font-family: georgia;
+}
+
+.html {
+background: url(images/html.gif) left center no-repeat;
+	    background-size: 32px auto;
+padding: 10px 40px;
+	 font-family: georgia;
+}
+
+.bib {
+background: url(images/bib.png) left center no-repeat;
+	    background-size: 32px auto;
+padding: 10px 40px;
+	 font-family: georgia;
+}
+
+div.content{
+	text-align: center;
+display: inline-block;
+}
+
+div.authors{
+	font-size: 125%;
+margin: 5px;
+	text-align: center;
+display: inline-block;
+}
+
+div.affiliation{
+	font-size: 100%;
+margin: 5px;
+	text-align: center;
+display: inline-block;
+}
+
+.sup{
+	font-size: 75%;
+	vertical-align: super;
+}
+
+div.abstract{
+	text-align: center;
+width: 85%;
+       font-size: 125%;
+margin: 0px auto;
+display: inline-block;
+}
+
+div.teaser{
+	text-align: center;
+margin: 10px auto;
+display: inline-block;
+}
+
+div.video{
+	text-align: center;
+margin: 10px auto;
+display: inline-block;
+}
+
+table.links{
+margin: 10px auto;
+width: 90%;
+       font-size: 150%; 
+}
