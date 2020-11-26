@@ -2188,19 +2188,19 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 20%;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 0%;
 				display: block;
 				width: 100%;
 			}
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 10em;
 			border-radius: 0;
 		}
 
